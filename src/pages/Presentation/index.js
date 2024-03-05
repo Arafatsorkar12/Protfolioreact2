@@ -166,10 +166,10 @@ function Presentation() {
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
                 <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
-                  Thank you for your support!
+                  Thank you for visiting my website !
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  {/*We deliver the best web products*/}
                 </MKTypography>
               </Grid>
               <Grid
@@ -182,9 +182,9 @@ function Presentation() {
               >
                 <MKSocialButton
                   component="a"
-                  href="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23mui5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-kit-react"
+                  href="https://bd.linkedin.com/in/arafat-sorkar-4b6a90182"
                   target="_blank"
-                  color="twitter"
+                  color="linkedin"
                   sx={{ mr: 1 }}
                 >
                   <i className="fab fa-twitter" />
@@ -192,13 +192,13 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://www.facebook.com/Arafatsorkar12345/"
                   target="_blank"
                   color="facebook"
                   sx={{ mr: 1 }}
                 >
                   <i className="fab fa-facebook" />
-                  &nbsp;Share
+                  &nbsp;Facebook
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"

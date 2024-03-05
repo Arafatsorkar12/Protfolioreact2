@@ -50,15 +50,13 @@ function Download() {
         <Container sx={{ position: "relative", zIndex: 2, py: 12 }}>
           <Grid container item xs={12} md={7} justifyContent="center" mx="auto" textAlign="center">
             <MKTypography variant="h3" color="white">
-              Do you love this awesome
+              Do you Interested About Me?
             </MKTypography>
             <MKTypography variant="h3" color="white" mb={1}>
-              UI Kit for ReactJS &amp; MUI?
+              {/*About Me?*/}
             </MKTypography>
             <MKTypography variant="body2" color="white" mb={6}>
-              Cause if you do, it can be yours for FREE. Hit the button below to navigate to
-              Creative Tim where you can find the Design System in HTML. Start a new project or give
-              an old Bootstrap project a new look!
+              My All Information Given this cV. please Download My CV. Or Contact With me.
             </MKTypography>
             <MKButton
               variant="gradient"
