@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -58,7 +58,7 @@ function BuiltByDevelopers() {
           </MKTypography>
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+            href=""
             target="_blank"
             rel="noreferrer"
             variant="body2"
@@ -79,7 +79,7 @@ function BuiltByDevelopers() {
               },
             }}
           >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            {/*Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>*/}
           </MKTypography>
         </Grid>
       </Container>

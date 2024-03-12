@@ -110,7 +110,7 @@ function Presentation() {
       >
         <Counters />
         <Information />
-        <DesignBlocks />
+        <DesignBlocks />   {/*this is card*/}
         <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />

@@ -44,10 +44,10 @@ function Information() {
                   <>
                     Feel the
                     <br />
-                    Material Kit
+                    Sorkars Development
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="All components that you need in a development have been re-design And Develop with the new look."
               />
               <RotatingCardBack
                 image={bgBack}
@@ -74,8 +74,8 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="Backend Development"
+                  description="The world's most popular Laravel  Framework for building Backend Development."
                 />
               </Grid>
             </Grid>
@@ -84,7 +84,7 @@ function Information() {
                 <DefaultInfoCard
                   icon="price_change"
                   title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  description="Creating your design from scratch with dedicated Developer can be very expensive. Start with our Design And Development System."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
