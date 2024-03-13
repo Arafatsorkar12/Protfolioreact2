@@ -63,7 +63,7 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="https://www.creative-tim.com/product/material-kit-react"
+              href="https://www.creative-tim.com/product"
               sx={{ mb: 2 }}
             >
               Download Now
@@ -78,6 +78,17 @@ function Download() {
               Available on these technologies
             </MKTypography>
             <Grid container spacing={3} justifyContent="center">
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="PHP - Most popular Lanhueage">
+                  <MKBox component="a" href="www" target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://www.svgrepo.com/show/303656/php-logo.svg"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
               <Grid item xs={4} lg={2}>
                 <Tooltip title="Bootstrap 5 - Most popular front-end component library">
                   <MKBox
@@ -94,7 +105,7 @@ function Download() {
                 </Tooltip>
               </Grid>
               <Grid item xs={4} lg={2}>
-                <Tooltip title="Comming soon">
+                <Tooltip title="CSS 5 - Most popular front-end component">
                   <MKBox
                     opacity={0.5}
                     component="a"
@@ -104,7 +115,107 @@ function Download() {
                   >
                     <MKBox
                       component="img"
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/icon-tailwind.jpg"
+                      src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="JS  - Most popular Scripting Language ">
+                  <MKBox
+                    opacity={0.5}
+                    component="a"
+                    href="#"
+                    target="_blank"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <MKBox
+                      component="img"
+                      src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="Laravel - Most popular Framework  ">
+                  <MKBox
+                    opacity={0.5}
+                    component="a"
+                    href="#"
+                    target="_blank"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <MKBox
+                      component="img"
+                      src="https://ih1.redbubble.net/image.1661521632.3647/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="React -  Most popular JavaScript library ">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="My SQL -  Most popular Database ">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://urbantution.com/content_image/blog/7a727005-e70f-4ab3-b4fa-c76c5bde0213.jpg"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="POSTgreSQL -  Most popular Database ">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaCAuUOS7_CY6Hnk3CIe3uCT8y1ApFwUmMOP3ryIACpw&s"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="XAMPP - The most popular PHP development environment">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://i.pinimg.com/originals/91/e7/06/91e7060cf174afaa561db15313c12fef.png"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="Node.js - Open source server environment">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2hroB75s-dtJHQdVWbPUzyv1zgtWvwwAXflEvAI8-YQ&s"
+                      width="100%"
+                    />
+                  </MKBox>
+                </Tooltip>
+              </Grid>
+              <Grid item xs={4} lg={2}>
+                <Tooltip title="Docker-  Open platform for developing, shipping, and running applications.">
+                  <MKBox component="a" href=" " target="_blank">
+                    <MKBox
+                      component="img"
+                      src="https://logowik.com/content/uploads/images/301_docker.jpg"
                       width="100%"
                     />
                   </MKBox>
@@ -139,21 +250,6 @@ function Download() {
                     <MKBox
                       component="img"
                       src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                      width="100%"
-                    />
-                  </MKBox>
-                </Tooltip>
-              </Grid>
-              <Grid item xs={4} lg={2}>
-                <Tooltip title="Comming soon">
-                  <MKBox
-                    component="a"
-                    href="https://www.creative-tim.com/product/material-kit-react"
-                    target="_blank"
-                  >
-                    <MKBox
-                      component="img"
-                      src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
                       width="100%"
                     />
                   </MKBox>
